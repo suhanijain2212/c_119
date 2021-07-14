@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    Image(video, 0, 0, 300, 300);
+    image(video, 0, 0, 300, 300);
     classifier.classify(video, gotResult);
 }
 
